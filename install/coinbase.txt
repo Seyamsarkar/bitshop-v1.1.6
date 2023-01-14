@@ -1,0 +1,9 @@
+Coinbase setup:
+
+Click the Merchants tab and setup your profile and settings (leave Redirect URLs blank).
+Go to Settings -> API Access and click the button to create a new API key.
+Select all permissions for API v2 or just permissions related to orders, checkouts, and notifications.
+Set Notification URL to: SITE/sci/gateways/coinbase/callback.php?s=SECRET
+Replace SITE with the URL where BitShop is installed and SECRET with any random string.
+Click button to create the API key and then wait 48 hours for key to be enabled.
+Copy the API key, API secret, and callback secret into your BitShop gateway settings.
